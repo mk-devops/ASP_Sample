@@ -1,0 +1,542 @@
+﻿<!DOCTYPE html>
+<script runat="server">
+
+    Protected Sub Button10_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Protected Sub Button3_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Protected Sub Button2_Click(sender As Object, e As EventArgs)
+
+    End Sub
+</script>
+
+
+
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <title>پروفایل مدیریت بازاریابی</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link href="./new_base_profile/basic_profile (1)_files/styles.css" type="text/css" rel="stylesheet">
+    <link href="./new_base_profile/basic_profile (1)_files/styles(1).css" type="text/css" rel="stylesheet">
+     <link href="./My_css/grid_profile.css" type="text/css" rel="stylesheet">
+    
+   <style type="text/css">
+
+        
+        
+   .Grid {background-color:white; margin: 2px 0 5px 17px; 
+             border: solid 1px #33CCCC; border-collapse:collapse; font-family:'B Nazanin';
+             text-decoration: none; 
+             text-align: left;
+             direction:ltr;
+      }
+
+  .Grid a
+    { 
+      color: white; 
+      font-weight: bold;
+
+      
+    }  
+
+  .Grid header
+  {
+   background-color:aquamarine;
+  }
+ 
+
+      .Grid td {
+       padding: 1px;
+       border: solid 1px #33CCCC; 
+       font-size:17px;
+       font-family:'B Nazanin';
+       direction:ltr;
+      }
+     
+
+    .Grid th  {
+         padding : 2px 1px;
+         color: black; 
+         background-color:#3366CC;
+         text-decoration: none;
+         border-left: solid 1px #525252;
+         border-right: solid 1px #525252;
+         font-size:19px;
+         font-family:'B Nazanin';
+         height:10px;
+    }
+    .Grid th a{
+        text-decoration: none;
+         direction:ltr;
+    }
+
+        .Grid .alt {
+
+      background: #363670}
+
+           .Grid .pgr {background: #363670 ; }
+
+           .Grid .pgr table { margin: 0px 0; }
+
+           .Grid .pgr td { border-width: 0; padding: 0 2px; border-left: solid 1px #666; font-weight: bold; color: #fff; line-height: 9px; }  
+
+            .Grid .pgr a { color: Gray; text-decoration: none; }
+
+            .Grid .pgr a:hover { color: #000; text-decoration: none;
+            
+
+            }
+
+
+ .linkGVE 
+   {
+      text-decoration:none;
+      text-align:center; 
+      background-color: limegreen; 
+      border: #0066CC;
+      color: white;
+      text-align: center;
+      cursor: pointer;
+      height:35px;
+      width:160px;
+      font-family:'Iranian Sans';
+      border-radius: 5px;
+      border-style:unset;
+      animation:forwards; 
+ }
+
+ .linkGVE2
+   {
+      text-decoration:none;
+      text-align:center; 
+      background-color: coral; 
+      border: #0066CC;
+      color: white;
+      text-align: center;
+      cursor: pointer;
+      height:35px;
+      width:140px;
+      font-family:'Iranian Sans';
+   
+
+ }
+
+ .linkGVE3
+   {
+      text-decoration:none;
+      text-align:center; 
+      background-color: darkmagenta; 
+      border: inherit;
+      color: white;
+      text-align: center;
+      cursor: pointer;
+      height:35px;
+      width:440px;
+      font-family:'Iranian Sans';
+   
+
+ }
+      
+
+
+       .button {
+                 background-color: #ff8d00; 
+                 border: #0066CC;
+                 color: white;
+                 text-align: center;
+                 text-decoration: none;
+                 display: inline-block;
+                 font-size: 20px;
+                 font-family:'B Nazanin';
+                 width:130px;
+                 display: inline-block;
+                 cursor: pointer;
+                 border-radius: 5px; 
+                 margin-bottom:5px;
+                 
+             }
+
+        .button2 {border-radius: 5px;  }
+
+        .button:hover {
+              background-color: orangered;
+              color: white;
+            }
+        .button span {
+                 cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.5s;
+                   }
+
+          .button span:after {
+                 content: '\00bb';
+                 position: absolute;
+                 opacity: 0;
+                 top: 0;
+                 right: -20px;
+                 transition: 0.5s;
+                }
+
+
+          .button4 {
+                 background-color:#199ED8; 
+                 border: #0066CC;
+                 color: white;
+                 text-align: center;
+                 text-decoration: none;
+                 display: inline-block;
+                 font-size: 20px;
+                 font-family:'B Nazanin';
+                 height:35px;
+                 width:130px;
+                 display: inline-block;
+                 cursor: pointer;
+                 border-radius: 5px; 
+                 margin-bottom:5px;
+                 
+             }
+
+        .button4 {border-radius: 5px;  }
+
+        .button4:hover {
+              background-color: royalblue;
+              color: white;
+            }
+        .button4 span {
+                 cursor: pointer;
+                 display: inline-block;
+                 position: relative;
+                 transition: 0.5s;
+                   }
+
+          .button4 span:after {
+                 content: '\00bb';
+                 position: absolute;
+                 opacity: 0;
+                 top: 0;
+                 right: -20px;
+                 transition: 0.5s;
+                }
+
+                  
+          .button5 {
+                 background-color:#034CC1; 
+                 border: #0066CC;
+                 color: white;
+                 text-decoration: none;
+                 display: inline-block;
+                 font-size: 20px;
+                 font-family:'B Nazanin';
+                 width:130px;
+                 display: inline-block;
+                 cursor: pointer;
+                 border-radius: 5px; 
+                 margin-bottom:5px;
+                  text-align: center;
+       }
+
+
+        .button5 {border-radius: 5px;
+            margin-left: 0px;
+        }
+
+         .labeltitle 
+         {
+           border-width: 0px;
+           position: absolute;
+           font-family: 'B Titr Bold', 'B Titr';
+             font-weight: 700;
+           font-style: normal;
+           font-size: 20px;
+           color: #024CA1;
+         } 
+         
+         .label1
+         {
+           font-family: 'B Roya Bold', 'B Roya Regular', 'B Roya';
+           font-weight: 700;
+           font-style: normal;
+           font-size: 18px;
+           color: #3366CC;
+           text-align: right;
+         } 
+         
+         .label2
+         {
+          font-family: 'B Roya Bold', 'B Roya Regular', 'B Roya';
+          font-weight: 700;
+          font-style: normal;
+          font-size: 18px;
+          text-align: right;
+         } 
+         
+          .label3
+         {
+          font-family: 'B Roya Bold', 'B Roya Regular', 'B Roya';
+          font-weight: 700;
+          font-style: normal;
+          font-size: 20px;
+          color: #FCA830;
+         }
+
+       .exbtn {
+           border-radius: 5px;
+           background: center;
+           background-image: url("./comp_image/error/exit.jpg"); 
+           margin-left: 0px;
+       }
+                 
+          </style>
+
+   
+</head>
+<body>
+    <form id="mkfrm" runat="server">
+    <div id="base" class="">
+        <!-- Unnamed (Rectangle) -->
+        <div id="u14" class="">
+            <div id="u14_div" class="">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder19" runat="server">
+                    
+                    <p>
+                        <br />
+                    </p>
+                    <p>
+                    </p>
+                    <p style="height: 8px">
+                    </p>
+                    <p style="text-align: center">
+                        &nbsp;</p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="u14_text" class="text " style="top: 728px; transform-origin: 101px 14px 0px;">
+                <p><span>`</span></p>
+            </div>
+        </div>
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <div id="u42" class="">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder14" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u43" class="ax_default line">
+            <img id="u43_img" class="img " src="./new_base_profile/basic_profile (1)_files/u43.png">
+        </div>
+        <!-- Unnamed (Rectangle) -->
+        <div id="u44" class="">
+            &nbsp;<asp:ContentPlaceHolder ID="ContentPlaceHolder16" runat="server">
+                <p>
+                    <br />
+                </p>
+            </asp:ContentPlaceHolder>
+        </div>
+        <!-- co_workers (Dynamic Panel) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <div id="u75" class="ax_default heading_2">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder15" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u76" class="ax_default line">
+            <img id="u76_img" class="img " src="./new_base_profile/basic_profile (1)_files/u9.png">
+        </div>
+        <!-- Unnamed (Rectangle) -->
+        <div id="u77" class="ax_default heading_1">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder13" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Image) -->
+        <div id="u79" class="ax_default image">
+            <img id="u79_img" class="img " src="./new_base_profile/basic_profile (1)_files/u79.png">
+        </div>
+        <!-- Unnamed (Rectangle) -->
+        <div id="u80" class="ax_default primary_button" style="cursor: pointer;">
+           
+            <asp:Button ID="Button10" runat="server" Text="مشاهده" CssClass="button5" Width="158px" OnClick="Button10_Click" />
+           
+        </div>
+        <!-- Unnamed (Rectangle) -->
+        <div id="u81" class="ax_default primary_button">
+            <asp:Button ID="Button4" runat="server" Text="منوی اصلی"   CssClass="button5"/>
+        </div>
+        <!-- Unnamed (Rectangle) -->
+        <div id="u82" class="ax_default primary_button">
+            <asp:Button ID="Button5" runat="server" Text="اهداف اداره" CssClass="button5" />
+        </div>
+        <!-- Unnamed (Rectangle) -->
+        <div id="u83" class="ax_default primary_button" style="cursor: pointer;">
+            <asp:Button ID="Button6" runat="server" Text="نمای بازار" CssClass="button5" />
+        </div>
+        <!-- Unnamed (Rectangle) -->
+        <div id="u84" class="ax_default primary_button">
+            <asp:Button ID="Button7" runat="server" Text="اخبار" CssClass="button5" />
+        </div>
+        <!-- Unnamed (Rectangle) -->
+        <div id="u85" class="ax_default primary_button">
+            <asp:Button ID="Button8" runat="server" Text="مراکز تماس" CssClass="button5"/>
+        </div>
+        <!-- Unnamed (Rectangle) -->
+        <div id="u86" class="ax_default primary_button">
+            <asp:Button ID="Button9" runat="server" Text="درباره ما" CssClass="button button2"/>
+        </div>
+        <!-- Unnamed (Rectangle) -->
+        <div id="u87" class="ax_default primary_button" style="cursor: pointer;">
+            <asp:Button ID="Button2" runat="server" Text="آمار" CssClass="button5" Width="163px" OnClick="Button2_Click"  />
+        </div>
+        <!-- Unnamed (Image) -->
+        <div id="u88" class="ax_default image">
+            <img id="u88_img" class="img " src="./new_base_profile/basic_profile (1)_files/u11.png">
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u89" class="ax_default box_3">
+            <div id="u89_div" class="">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder12" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <!-- Unnamed (Shape) -->
+        <div id="u90" class="ax_default icon">
+            <img id="u90_img" class="img " src="./new_base_profile/basic_profile (1)_files/u90.png">
+        </div>
+        <!-- Unnamed (Shape) -->
+        <div id="u91" class="ax_default icon">
+            <img id="u91_img" class="img " src="./new_base_profile/basic_profile (1)_files/u91.png">
+        </div>
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Image) -->
+        <div id="u93" class="ax_default image">
+            <img id="u93_img" class="img " src="./new_base_profile/basic_profile (1)_files/u93.png">
+        </div>
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u96" class="ax_default line">
+             <img id="u96_img" class="img " src="./new_base_profile/basic_profile (1)_files/u96.png">
+           </div>
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u97" class="ax_default line">
+            <img id="u97_img" class="img " src="./new_base_profile/basic_profile (1)_files/u43.png">
+        </div>
+        <!-- Unnamed (Rectangle) -->
+        <div id="u98" class="ax_default heading_2">
+            <div id="u98_div" class=""></div>
+            <div id="u98_text" class="text ">
+                <p><span>NAK</span></p>
+            </div>
+        </div>
+        <!-- Unnamed (Shape) -->
+        <div id="u99" class="ax_default icon">
+            <img id="u99_img" class="img " src="./new_base_profile/basic_profile (1)_files/u99.png">
+        </div>
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u101" class="ax_default line">
+            <img id="u101_img" class="img " src="./new_base_profile/basic_profile (1)_files/u43.png">
+        </div>
+        <!-- co_workers (Dynamic Panel) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- co_workers (Dynamic Panel) -->
+        <!-- Unnamed (Rectangle) -->
+        <div id="u155" class="ax_default heading_1">
+            <div id="u155_div" class=""></div>
+            <div id="u155_text" class="text " style="left: -493px; width: 1097px; transform-origin: 62px 16.5px 0px; height: 26px;">
+                <p style="text-align: justify">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder17" runat="server">
+                    </asp:ContentPlaceHolder>
+                </p>
+            </div>
+        </div>
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u156" class="ax_default line">
+            <img id="u156_img" class="img " src="./new_base_profile/basic_profile (1)_files/u156.png">
+        </div>
+        <!-- Unnamed (Image) -->
+        <div id="u157" class="ax_default image">
+            <img id="u157_img" class="img " src="./new_base_profile/basic_profile (1)_files/u157.png">
+        </div>
+        <!-- Unnamed (Image) -->
+        <div id="u158" class="ax_default image">
+            <img id="u158_img" class="img " src="./new_base_profile/basic_profile (1)_files/u158.png">
+        </div>
+        <!-- co_workers (Dynamic Panel) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- co_workers (Dynamic Panel) -->
+        <!-- Unnamed (Rectangle) -->
+        <!-- co_workers (Dynamic Panel) -->
+        <!-- Unnamed (Rectangle) -->
+        <div id="u228" class="ax_default heading_1">
+            &nbsp;<asp:ContentPlaceHolder ID="ContentPlaceHolder18" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <!-- co_workers (Dynamic Panel) -->
+        <!-- Unnamed (Rectangle) -->
+        <div id="u247" class="ax_default box_3">
+            <div id="u247_div" class=""></div>
+        </div>
+        <!-- Unnamed (Rectangle) -->
+       
+        <!-- Unnamed (Rectangle) -->
+        <div id="u250" class="ax_default heading_1">
+            <img id="u250_img" class="img " src="./new_base_profile/basic_profile (1)_files/u10.png">
+            <div id="u250_text" class="text ">
+                <p><span>سامانه مدیریت بازاریابی بانک تجارت</p>
+            </div>
+        </div>
+        <!-- Unnamed (Image) -->
+        <div id="u251" class="ax_default image">
+            <img id="u251_img" class="img " src="./new_base_profile/basic_profile (1)_files/u12.png">
+        </div>
+    </div>
+    </form>
+</body>
+</html>
